@@ -1,26 +1,18 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+#define endl "\n"
+#define ll long long int
 int main()
 {
-    int i,j,t,n,x=0;
-    char s[1000000];
-    scanf("%d",&t);
-    for(i=1;i<=t;i++)
-    {
-        scanf("%d ",&n);
-        gets(s);
-
-        for(j=0;j<n;j++)
-        {
-            if(s[j]<=s[x])
-                x=j;
-        }
-        printf("%c",s[x]);
-                for(j=0;j<n;j++)
-                {
-                    if(j==x)
-                        continue;
-                              printf("%c",s[j]);
-                }
-                printf("\n");
-    }
+   ios_base::sync_with_stdio (0);
+   cin.tie (0);
+   cout.tie (0);
+   vector<int>v={2,2,2,2,2};
+   bool all_same=all_of(v.begin(),v.end(),[&](int n){
+   return n==v[0];}); 
+   if(all_same)
+   cout<<"YES"<<endl;
+   else
+   cout<<"not\n";
+   
 }
