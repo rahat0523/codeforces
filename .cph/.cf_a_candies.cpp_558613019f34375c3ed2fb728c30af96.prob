@@ -1,0 +1,1 @@
+{"name":"Local: cf_a_candies","url":"d:\\code forces\\cf_a_candies.cpp","tests":[{"id":1697388421830,"input":"7\n3\n6\n7\n21\n28\n999999999\n999999984\n","output":"1\n2\n1\n7\n4\n333333333\n333333328\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code forces\\cf_a_candies.cpp","group":"local","local":true}
